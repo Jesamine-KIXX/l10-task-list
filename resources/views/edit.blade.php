@@ -32,7 +32,7 @@
         </div>
 
         <div>
-            <label for="long_description">Description</label>
+            <label for="long_description">Long description</label>
             <textarea name="long_description" id="long_description" rows="10">{{ $task->long_description }}</textarea>
             @error('title')
                 <p class="error-message">{{ $message }}</p>
